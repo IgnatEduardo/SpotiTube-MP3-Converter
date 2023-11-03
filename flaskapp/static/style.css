@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: #1ED760; /* Spotify green text */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid #1ED760; /* Green border */
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #000; /* Black background */
+    color: #1ED760; /* Spotify green text */
+}
+
+input[type="text"]::placeholder {
+    color: #1ED760; /* Green placeholder text */
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #1ED760; /* Spotify green button */
+    color: #000; /* Black text */
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #1DB954; /* Slightly darker green on hover */
+}

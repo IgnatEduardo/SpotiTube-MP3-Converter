@@ -13,3 +13,6 @@ venv/
 # Dependency directories
 lib/
 lib64/
+
+.cache
+config.json
