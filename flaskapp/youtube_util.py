@@ -1,7 +1,14 @@
 from googleapiclient.discovery import build
+import json
+import os
 
-def search_youtube(youtube_api_key, query):
-    youtube = build('youtube', 'v3', developerKey = youtube_api_key)
+with open('config.json') as config_file:
+    config = json.load(config_file)
+
+YOUTUBE_API_KEY = os.environ.get('YOUTUBE_API_KEY', config.get('YOUTUBE_API_KEY', ''))
+
+def search_youtube(query):
+    youtube = build('youtube', 'v3', developerKey = YOUTUBE_API_KEY)
     search_response = youtube.search().list(
         q=query,
         type='video',

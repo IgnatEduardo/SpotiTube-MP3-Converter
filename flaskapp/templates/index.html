@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Spotify to YouTube Converter</title>
+    <title>Spotify2MP3</title>
     <link rel="stylesheet" type="text/css" href="static/style.css">
 </head>
 <body>
-    <h1>Spotify to YouTube Converter</h1>
-    <p>Enter the Spotify playlist ID to convert to YouTube:</p>
+    <div class="container">
+        <h1>Spotify2MP3</h1>
+        <h2>Convert your Spotify playlist to MP3</h2>
     
-    <form method="POST" action="/convert">
-        <label for="playlist_id">Spotify Playlist ID:</label>
-        <input type="text" id="playlist_id" name="playlist_id" required placeholder="E.g., your_playlist_id">
-        <br>
-        <input type="submit" value="Convert">
-    </form>
+        <form method="POST" action="/convert">
+            <label for="playlist_url">Share your Spotify playlist link:</label>
+            <input type="text" id="playlist_url" name="playlist_url" required placeholder="E.g., https://open.spotify.com/playlist/yourplaylistid">
+            <br>
+            <input type="submit" value="Convert">
+        </form>
+    </div>
 </body>
 </html>

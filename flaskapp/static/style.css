@@ -1,62 +1,81 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #000; /* Black background */
-    color: #1ED760; /* Spotify green text */
-    text-align: center;
+    background-color: #1e1e1e;
+    color: #fff;
     margin: 0;
     padding: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+}
+
+.container {
+    text-align: center;
+    margin: 10% auto;
+    width: 60%;
+    background-color: #292929;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
     font-size: 36px;
-    margin-bottom: 20px;
+    margin: 10px 0;
+    color: #1ed760;
 }
 
-p {
-    font-size: 20px;
-    margin-bottom: 30px;
+h2 {
+    font-size: 24px;
+    margin: 10px 0;
 }
 
 form {
-    margin-top: 10px;
+    margin-top: 20px;
+    text-align: center;
 }
 
 label {
+    font-size: 16px;
     display: block;
-    font-size: 24px;
     margin-bottom: 10px;
 }
 
 input[type="text"] {
-    width: 300px;
+    width: 100%;
     padding: 10px;
-    font-size: 20px;
-    border: 2px solid #1ED760; /* Green border */
+    border: 1px solid #1ed760;
     border-radius: 5px;
+    font-size: 16px;
     margin-bottom: 20px;
-    background-color: #000; /* Black background */
-    color: #1ED760; /* Spotify green text */
-}
-
-input[type="text"]::placeholder {
-    color: #1ED760; /* Green placeholder text */
 }
 
 input[type="submit"] {
+    background-color: #1ed760;
+    color: #fff;
     padding: 10px 20px;
-    background-color: #1ED760; /* Spotify green button */
-    color: #000; /* Black text */
+    font-size: 18px;
     border: none;
-    font-size: 20px;
-    cursor: pointer;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #1DB954; /* Slightly darker green on hover */
+    background-color: #0e0e0e;
+}
+
+input[type="submit"]:focus {
+    outline: none;
+}
+
+.convert-more-button {
+    display: inline-block;
+    background-color: #1ed760;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.convert-more-button:hover {
+    background-color: #0e0e0e;
 }
