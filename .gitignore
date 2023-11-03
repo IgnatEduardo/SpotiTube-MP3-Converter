@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development settings
+.vscode/
+venv/
+
+# Environment variables (if using a .env file)
+.env
+
+# Dependency directories
+lib/
+lib64/
