@@ -1,0 +1,4 @@
+pytube
+google-api-python-client>=2.0.0
+spotipy
+Flask>=2.0.0

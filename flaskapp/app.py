@@ -21,7 +21,7 @@ def convert():
     #check the playlist url is the correct format https://open.spotify.com/playlist/yourplaylistid
     playlist_url = playlist_url.split('playlist/')[1]
     playlist_url = playlist_url.split('?')[0]
-    download_path = 'D://'  # Set your download directory
+    download_path = 'converted_tracks'  # Set your download directory
 
     if not os.path.exists(download_path):
         os.makedirs(download_path)
