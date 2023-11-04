@@ -1,4 +1,8 @@
-# Spotify to YouTube MP3 Converter
+# Spotify2MP3
+
+## Description:
+
+Spotify2MP3 is a versatile and user-friendly application that empowers you to convert your favorite Spotify playlists and songs into MP3 format. Seamlessly transfer your music from the streaming platform to your local library, making it accessible offline and on any device. Enjoy your Spotify tracks without restrictions, anytime, anywhere, with Spotify2MP3.
 
 ## Setup
 
