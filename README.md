@@ -6,7 +6,7 @@ Spotify2MP3 is a versatile and user-friendly application that empowers you to co
 
 ## Demo
 
-https://github.com/IgnatEduardo/Spotify2MP3/assets/81325426/714fab5e-0431-4f7f-b1b7-56ead7c3ae25
+https://github.com/IgnatEduardo/Spotify2MP3/assets/81325426/d2847752-238a-415f-959f-def0bed3f8b5
 
 ## Setup
 
