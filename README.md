@@ -4,6 +4,10 @@
 
 Spotify2MP3 is a versatile and user-friendly application that empowers you to convert your favorite Spotify playlists and songs into MP3 format. Seamlessly transfer your music from the streaming platform to your local library, making it accessible offline and on any device. Enjoy your Spotify tracks without restrictions, anytime, anywhere, with Spotify2MP3.
 
+## Demo
+
+https://github.com/IgnatEduardo/Spotify2MP3/assets/81325426/714fab5e-0431-4f7f-b1b7-56ead7c3ae25
+
 ## Setup
 
 ### Prerequisites:
